@@ -1,0 +1,40 @@
+body {
+  font-family: "myriad pro" "roboto" sans-serif;
+  color: #515151;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.page-header {
+  background: rgb(190, 119, 119);
+  margin: 0 auto;
+  padding: 0;
+  width: 1110px;
+}
+.page-header li {
+    background: rgb(118, 170, 105);
+    float: left;
+    }
+.img-logo img{
+    float: left;
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+  
+}
+.nav-list a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 11px;
+  color: #515151;
+}
