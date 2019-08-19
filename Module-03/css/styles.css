@@ -22,7 +22,6 @@ img {
 .wrapper {
   width: 900px;
   margin: 0 auto;
-  margin-bottom: 50px;
 }
 .navigation li :hover {
   color: #03a9f4;
@@ -48,12 +47,16 @@ img {
 .navigation-menu li:not(:last-child) {
   margin-right: 125px;
 }
+.section-main {
+  padding-bottom: 50px;
+}
 .main-content {
   list-style: none;
   margin: 0;
   padding: 0;
   font-size: 0;
   text-align: left;
+  margin-bottom: 50px;
 }
 .main-content-item {
   width: 421px;
@@ -62,13 +65,16 @@ img {
   margin-right: 58px;
   font-size: 0;
 }
-.main-content-item{
+.main-content-item {
   margin-bottom: 100px;
+}
+.main-content-item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
 }
 .main-content :nth-child(2n) {
   margin-right: 0;
 }
-.main-content img{
+.main-content img {
   margin-bottom: 28px;
 }
 .img-name {
