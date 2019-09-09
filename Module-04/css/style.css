@@ -192,10 +192,10 @@ img {
   color: #0f0101;
   font-family: "open sans";
   font-size: 16px;
-  line-height: 26px;
+  line-height: 25px;
   font-weight: 300;
+  padding: 15px 30px;
 }
 .blog-features-item a:hover {
   background-color: #1abc9c;
-  padding: 15px 30px;
-}
+  }
