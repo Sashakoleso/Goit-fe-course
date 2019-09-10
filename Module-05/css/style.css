@@ -29,6 +29,7 @@ img {
   padding: 40px 0;
 }
 .img-logo {
+  display: block;
   float: left;
 }
 .nav-list li {
@@ -36,7 +37,7 @@ img {
   padding-right: 30px;
 }
 .nav-list a {
-  font-family: "opensans";
+  font-family: "Open Sans";
   text-decoration: none;
   font-size: 14px;
   line-height: 11px;
@@ -69,20 +70,6 @@ img {
   box-shadow: #000002;
   height: 602px;
 }
-.arrow {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 0%;
-  transform: translate(150%, -50%);
-}
-.arrow-next {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  transform: translate(-150%, -50%);
-  right: 0;
-}
 .slider-ctrl {
   position: absolute;
   display: inline-block;
@@ -96,9 +83,15 @@ img {
   z-index: 1;
 }
 .slider-prev {
+  background-image: url(../img/arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
   left: 0;
 }
 .slider-next {
+  background-image: url(../img/arrow-net.png);
+  background-position: center;
+  background-repeat: no-repeat;
   right: 0;
 }
 .slider-text h1,
@@ -107,8 +100,7 @@ h2 {
   text-align: left;
 }
 .slider-text h1 {
-  top: 40%;
-  left: 15%;
+  font-family: "Roboto";
   font-size: 50px;
   text-transform: uppercase;
   margin: 0;
@@ -116,13 +108,14 @@ h2 {
 }
 .slider-text h2 {
   margin: 0;
-  left: 15%;
-  top: 53%;
   font-size: 20px;
   text-transform: uppercase;
 }
-.text-inside {
+.slider-text {
   position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-42%, -48%);
 }
 .titles {
   text-align: center;
@@ -184,7 +177,7 @@ h2 {
   background-color: #4ec6ab;
 }
 .section-galery-item:hover .hover-btn {
-  background-color: #737373;
+  background-color: rgb(115, 115, 115);
   opacity: 0.9;
 }
 .btn1:hover {
@@ -202,7 +195,6 @@ h2 {
 .product-name {
   margin: 0;
   width: 188px;
-
   float: left;
   background-color: #323232;
   padding-left: 13px;
@@ -228,6 +220,7 @@ h2 {
 }
 .buttons {
   position: absolute;
+  text-align: center;
   width: 170px;
   height: 110px;
   padding: 0;
@@ -263,38 +256,45 @@ h2 {
   padding: 0;
   width: 50px;
   height: 50px;
-  float: left;
   border: 1px solid #fff;
 }
-.btn1,
-.btn2 {
+.btn1 li,
+.btn2 li {
   margin-right: 5px;
 }
 .btn4 {
-  background-image: url(../img/BUTTON4.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 0;
-  width: 170px;
+  margin: 0;
+  padding: 0px;
+  width: 160px;
   height: 50px;
   border: 1px solid #fff;
+  background-image: url(../img/bin.png);
+  background-repeat: no-repeat;
+  background-color: unset;
+  display: inline-block;
+}
+.btn4 p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .footer {
+  display: block;
   height: 88px;
   background-color: #323232;
 }
 .footer-text {
-  padding: 30px 0;
+  padding: 15px 0;
   text-align: center;
   color: #e9f0fd;
   font-size: 16px;
   line-height: 28px;
   font-family: "Open Sans";
 }
-.designer-name {
+span {
   color: #46bfa9;
 }
-.footer-text li {
+.footer-text p {
   display: inline-block;
   list-style: none;
 }
