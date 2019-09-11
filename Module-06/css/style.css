@@ -369,10 +369,10 @@ input[type="“text”"] {
   display: none;
   opacity: 0;
   transition-property: opacity;
-  transition-duration: 0.8s;
+  transition-duration: 200ms;
 }
 .hover-team:hover {
   transition-property: opacity;
-  transition-duration: 0.8s;
+  transition-duration: 200ms;
   opacity: 1;
 }
