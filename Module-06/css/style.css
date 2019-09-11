@@ -1,0 +1,378 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Kaushan Script", cursive;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  padding-bottom: 80px;
+}
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* padding-bottom: 80px; */
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+.nav-list a {
+  font-family: "Montserrat";
+  color: #95e1d3;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 60px;
+}
+.nav-list :last-child > a {
+  padding-right: 0;
+}
+.nav-list a:hover {
+  color: #f38181;
+}
+.nav-list a:after {
+  background-color: #f38181;
+  display: block;
+  content: "";
+  height: 6px;
+  width: 0%;
+  position: absolute;
+  transition: width 0.3s ease-in-out;
+  transform: translateX(0);
+}
+.nav-list a:hover:after {
+  width: 60px;
+}
+.title-service h3,
+.title-team h3 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Kaushan Script";
+  padding-bottom: 15px;
+}
+.titles:after {
+  background-color: #f38181;
+  display: block;
+  content: "";
+  height: 6px;
+  width: 0%;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+.titles:hover:after,
+.titles:focus:after {
+  width: 160px;
+}
+.title-service h2,
+.title-team h2 {
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.services-items li {
+  list-style: none;
+}
+.icon-alarm {
+  background-image: url(../images/alarm.png);
+  width: 32px;
+  height: 32px;
+}
+.icon-line {
+  background-image: url(../images/line.png);
+  width: 32px;
+  height: 32px;
+}
+.icon-computer {
+  background-image: url(../images/computer.png);
+  width: 32px;
+  height: 32px;
+}
+.icon-book {
+  background-image: url(../images/book.png);
+  width: 32px;
+  height: 32px;
+}
+.icon-home {
+  background-image: url(../images/home.png);
+  width: 32px;
+  height: 32px;
+}
+.icon-image {
+  background-image: url(../images/image.png);
+  width: 32px;
+  height: 32px;
+}
+.services-right {
+  width: 300px;
+}
+.services-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.services-items-part {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  height: 105px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.services-right > p {
+  font-family: "Roboto";
+  margin: 0;
+}
+.services-right p:nth-child(1) {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.services-right p:nth-child(2) {
+  color: #b3b3b3;
+  font-size: 15px;
+}
+.services-right :nth-child(1) {
+  padding-bottom: 20px;
+}
+.services-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services {
+  margin: 0;
+  padding-bottom: 30px;
+}
+.team:after {
+  background-color: #f38181;
+  display: block;
+  content: "";
+  height: 6px;
+  width: 0%;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+.team:hover:after,
+.team:focus:after {
+  width: 160px;
+}
+.title-team > p {
+  display: block;
+  font-family: "Roboto";
+  margin: 0 70px;
+  color: #b3b3b3;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.name {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.team-list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.team-lists {
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 70px;
+}
+.ucupation {
+  font-family: "Roboto";
+  font-weight: 300i;
+  font-size: 15px;
+  color: #b6b6b6;
+}
+.team-list li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.footer-text p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-text span {
+  color: #f38181;
+}
+.button-load {
+  width: 150px;
+  height: 44px;
+  border: 0px solid #626262;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #95e1d3;
+  border-radius: 0px;
+}
+.button-txt {
+  font-size: 14px;
+  font-family: “Montserrat”;
+  width: 150px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 16px;
+  text-align: center;
+}
+.footer-line {
+  border: none;
+  background-color: #e5e5e5;
+  color: #e5e5e5;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+}
+.footer-wrapper {
+  display: flex;
+  height: 62px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 10px;
+}
+.footer-text {
+  font-size: 14px;
+  font-family: “Montserrat”, sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 16px;
+  text-align: left;
+}
+.footer-text-color {
+  color: #f38181;
+}
+.footer-form {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.footer-form input {
+  margin: 0 auto;
+  padding: 0;
+  width: 230px;
+  height: 40px;
+}
+input[type="“text”"] {
+  font-size: 15px;
+  font-family: “Roboto”;
+  color: rgb(204, 204, 204);
+  font-style: italic;
+  line-height: 1.6;
+  text-align: left;
+  padding: 0px 10px;
+}
+.socials {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  background-color: #fce38a;
+}
+.guys {
+  position: relative;
+  transition: none;
+  transition-duration: 200ms;
+}
+.guys:hover .hover-team {
+  display: block;
+  transition-duration: 200ms;
+}
+.facebook {
+  background-image: url(../images/facebook.png);
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #f38181;
+}
+.facebook:hover {
+  background-color: #95e1d3;
+}
+.twitter:hover {
+  background-color: #95e1d3;
+}
+.pinterest:hover {
+  background-color: #95e1d3;
+}
+.instagram:hover {
+  background-color: #95e1d3;
+}
+.twitter {
+  background-image: url(../images/twitter.png);
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #f38181;
+}
+.pinterest {
+  background-image: url(../images/pinterest.png);
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #f38181;
+}
+.instagram {
+  background-image: url(../images/instagram.png);
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #f38181;
+}
+.hover-team {
+  background: linear-gradient(
+    to top,
+    rgba(239, 138, 138, 0.8),
+    rgba(242, 217, 136, 0.8)
+  );
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  top: -10px;
+  left: -10px;
+  box-shadow: 10px 10px #95e1d3;
+  display: none;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.8s;
+}
+.hover-team:hover {
+  transition-property: opacity;
+  transition-duration: 0.8s;
+  opacity: 1;
+}
