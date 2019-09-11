@@ -21,11 +21,8 @@ img {
   clear: both;
 }
 .header {
-  height: 92px;
   margin: 0 auto;
   background-color: rgb(255, 255, 255);
-}
-.navigation {
   padding: 40px 0;
 }
 .img-logo {
@@ -34,7 +31,7 @@ img {
 }
 .nav-list li {
   display: inline-block;
-  padding-right: 30px;
+  margin-right: 30px;
 }
 .nav-list a {
   font-family: "Open Sans";
@@ -44,13 +41,13 @@ img {
   text-transform: uppercase;
   font-weight: 600;
   color: #0f0101;
-  padding-right: 30px;
+  margin-right: 30px;
 }
 .nav-list a:hover {
   color: #1abc9c;
 }
 .nav-list :last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 .nav-list {
   margin: 0;
@@ -77,10 +74,12 @@ img {
   transform: translateY(-50%);
   width: 103px;
   height: 104px;
-  background-color: #1abc9c;
+  background-color: rgba(77, 139, 88, 0.7);
   border: none;
   border-radius: 0;
-  z-index: 1;
+}
+.slider-ctrl:hover {
+  background-color: rgba(77, 139, 88, 1);
 }
 .slider-prev {
   background-image: url(../img/arrow.png);
@@ -126,7 +125,6 @@ h2 {
   text-transform: uppercase;
   color: #515151;
   margin: 0;
-  padding-top: 60px;
   margin-bottom: 90px;
 }
 .titles {
@@ -150,13 +148,14 @@ h2 {
   width: 160px;
 }
 .main-collection {
+  padding-top: 60px;
   margin: auto;
   background-color: #e9f0fd;
+  padding-bottom: 70px;
 }
 .all-collection {
   padding-left: 0;
   margin: 0;
-  padding-bottom: 70px;
 }
 .section-galery-item {
   margin-left: 0;
@@ -177,8 +176,8 @@ h2 {
   background-color: #4ec6ab;
 }
 .section-galery-item:hover .hover-btn {
-  background-color: rgb(115, 115, 115);
-  opacity: 0.9;
+  background-color: rgb(0, 0, 0, 0.7);
+  display: block;
 }
 .btn1:hover {
   background-color: #4ec6ab;
@@ -216,7 +215,7 @@ h2 {
   transform: translate(-50%, -50%);
   width: 235px;
   height: 300px;
-  opacity: 0;
+  display: none;
 }
 .buttons {
   font-size: 0;
@@ -288,7 +287,6 @@ h2 {
 }
 .footer {
   display: block;
-  height: 88px;
   background-color: #323232;
 }
 .footer-text {
@@ -306,5 +304,3 @@ span {
   display: inline-block;
   list-style: none;
 }
-
-/* :nth-last-child(-n + 2) */
