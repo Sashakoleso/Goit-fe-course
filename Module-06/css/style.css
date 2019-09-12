@@ -1,4 +1,4 @@
-body {
+﻿body {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Kaushan Script", cursive;
@@ -136,7 +136,6 @@ img {
   width: 350px;
   justify-content: space-between;
   height: 105px;
-  margin-right: 20px;
   margin-bottom: 40px;
 }
 .services-right > p {
