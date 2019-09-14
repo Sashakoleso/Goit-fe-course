@@ -5,27 +5,35 @@
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
-    src: url(‘../fonts/montserrat-v14-latin-regular.woff’);
-    src: local(‘Montserrat Regular’), local(‘Montserrat-Regular’), url(‘../fonts/montserrat-v14-latin-regular.woff2’) format(‘woff2’);
+    src: url(../fonts/montserrat-v14-latin-regular.woff) format(woff);
+    src: url(../fonts/montserrat-v14-latin-regular.woff2) format(woff2);
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
-    src: url(‘../fonts/montserrat-v14-latin_vietnamese-regular.woff’);
-    src: local(‘Montserrat Regular’), local(‘Montserrat-Regular’), url(‘montserrat-v14-latin_vietnamese-regular.woff2’) format(‘woff2’);
+    src: url(../fonts/montserrat-v14-latin-700.woff) format(woff);
+    src: url(../fonts/montserrat-v14-latin-700.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/montserrat-v14-latin-italic.woff) format(woff);
+    src: url(../fonts/montserrat-v14-latin-italic.woff2) format(woff2);
 }
 
 @font-face {
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 400;
-    src: url(‘../fonts/roboto-slab-v9-latin-regular.woff’);
-    src: local(‘Roboto Slab Regular’), local(‘RobotoSlab-Regular’), url(‘../fonts/roboto-slab-v9-latin-regular.woff2’) format(‘woff2’),
+    src: url(../fonts/roboto-slab-v9-latin-regular.woff) format(woff);
+    src: url(../fonts/roboto-slab-v9-latin-regular.woff2) format(woff2);
 }
 
 img {
@@ -64,8 +72,9 @@ li {
 }
 
 .nav-list a {
-    font-family: "Montserrat";
-    color: #000000;
+    font-family: Montserrat, sans-serif;
+    color: #222222;
+    font-weight: 400;
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
@@ -79,11 +88,6 @@ li {
     margin-right: 0;
 }
 
-
-/* .nav-list :last-child>a {
-    padding-right: 0;
-} */
-
 .nav-list a:hover {
     color: #eebb0b;
 }
@@ -96,27 +100,30 @@ li {
 }
 
 .title-service {
-    font-family: "Montserrat";
+    font-family: Montserrat, sans-serif;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .title-description {
-    font-family: "Montserrat";
-    font-size: 16px;
-    font-weight: lighter;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: 400;
+    font-style: italic;
     text-align: center;
     margin-bottom: 50px;
 }
 
 .title-description2 {
-    font-family: "Montserrat";
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: lighter;
+    font-family: Montserrat, sans-serif;
+    color: #9b9b9b;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -167,16 +174,17 @@ li {
 }
 
 .block-title {
-    font-family: "Montserrat";
+    font-family: Montserrat, sans-serif;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 700;
     text-align: center;
     padding-bottom: 13px;
 }
 
 .block-description {
-    font-family: "Roboto Slab";
+    font-family: Roboto Slab, sans-serif;
     font-size: 14px;
+    color: #9b9b9b;
     font-weight: 400;
     text-align: center;
 }
@@ -192,10 +200,10 @@ li {
 }
 
 .title-contuct {
-    font-family: "Montserrat";
+    font-family: Montserrat, sans-serif;
     color: #ffffff;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -223,7 +231,7 @@ li {
 }
 
 .place::placeholder {
-    font-family: "Montserrat";
+    font-family: Montserrat, sans-serif;
     font-weight: 700;
     font-size: 14px;
     padding-left: 20px;
@@ -241,7 +249,7 @@ li {
 }
 
 .button {
-    font-family: "Montserrat";
+    font-family: Montserrat, sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
