@@ -244,19 +244,23 @@
      color: #8f8f8f;
  }
  
- .bottom-title {
+ .button-2 {
      background-color: #ffffff;
-     color: #ff4e50;
      font-family: Montserrat, sans-serif;
      font-size: 14px;
      font-weight: 700;
      padding: 15px;
      border: 2px solid #ff4e50;
      border-radius: 25px;
-     text-align: center;
      width: 275px;
      margin: 0 auto;
      display: block;
+ }
+ 
+ .button-2 a {
+     display: block;
+     color: #ff4e50;
+     text-decoration: none;
  }
  
  @media (min-width: 748px) {
