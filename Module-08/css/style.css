@@ -102,7 +102,7 @@
  }
  
  .background-1 {
-     background-image: url(../images/backG.png);
+     background-image: url(../images/backmob.png);
      background-repeat: no-repeat;
      background-position: center;
      width: 345px;
@@ -268,7 +268,9 @@
          width: 747px;
      }
      .background-1 {
+         background-image: url(../images/backtabl.png);
          width: 747px;
+         height: 700px;
      }
      .navigation {
          width: 747px;
@@ -276,7 +278,7 @@
          flex-direction: row-reverse;
          justify-content: space-between;
          align-items: center;
-         padding: 20px 20px 0 20px;
+         padding: 20px 20px 145px 20px;
          margin-bottom: 50px;
      }
      .nav-list {
@@ -319,19 +321,22 @@
  
  @media (min-width: 940px) {
      .wrapper {
-         width: 938px;
+         width: 1440px;
      }
      .background-1 {
-         width: 938px;
+         background-image: url(../images/backG.png);
+         width: 1440px;
+         height: 700px;
      }
      .navigation {
-         width: 938px;
+         width: 939px;
          display: flex;
          flex-direction: row-reverse;
          justify-content: space-between;
          align-items: center;
-         padding: 20px 20px 0 20px;
+         padding: 40px 20px 125px 20px;
          margin-bottom: 50px;
+         margin: auto;
      }
      .nav-list {
          padding: 0;
@@ -349,7 +354,7 @@
          margin: auto;
      }
      .promo {
-         width: 938px;
+         width: 1440px;
          margin-right: 0;
      }
      .promo-list {
