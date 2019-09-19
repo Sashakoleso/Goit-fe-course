@@ -27,9 +27,9 @@ img {
 }
 
 .header {
-    height: 1008px;
+    /* height: 1008px; */
     padding-top: 20px;
-    margin-bottom: 70px;
+    padding-bottom: 265px;
     background: url(../images/background.png) no-repeat;
     background-position: center;
     background-repeat: no-repeat;
@@ -357,7 +357,7 @@ img {
 .team__lists {
     margin: 0 auto;
     padding: 0;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 .ucupation {
