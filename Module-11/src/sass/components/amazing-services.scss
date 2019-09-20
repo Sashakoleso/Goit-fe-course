@@ -1,0 +1,144 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title__service h3,
+.title__team h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-family: $main-fonts3;
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+
+.title__team :nth-child(n+2) {
+    margin-bottom: 70px;
+}
+
+.titles:after {
+    background-color: $color-pink;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+:hover:after,
+:focus:after {
+    width: 160px;
+}
+
+.title__service h2,
+.title__team h2 {
+    margin: 0 auto;
+    font-family: $main-fonts1;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services__items li {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.services__items :nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.icon__alarm {
+    background-image: url(../images/alarm.png);
+   
+}
+
+.icon__line {
+    background-image: url(../images/line.png);
+    @include icons-size;
+}
+
+.icon__computer {
+    background-image: url(../images/computer.png);
+    @include icons-size;
+}
+
+.icon__book {
+    background-image: url(../images/book.png);
+    @include icons-size;
+}
+
+.icon__home {
+    background-image: url(../images/home.png);
+    @include icons-size;
+}
+
+.icon__image {
+    background-image: url(../images/image.png);
+    @include icons-size;
+}
+
+.services__right {
+    width: 300px;
+}
+
+.services__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+        padding: 0;
+}
+
+.services__items__part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 350px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 105px;
+}
+
+.services__right>p {
+    font-family: $main-fonts2;
+    margin: 0;
+}
+
+.services__right p:nth-child(1) {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.services__right p:nth-child(2) {
+    color: $color-grey;
+    font-size: 15px;
+}
+
+.services__right :nth-child(1) {
+    padding-bottom: 20px;
+}
+
+.services__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+     padding-bottom: 50px;
+}
+
+.services {
+    margin: 0;
+    padding-bottom: 30px;
+    
+}

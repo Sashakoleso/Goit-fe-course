@@ -1,0 +1,29 @@
+$main-fonts1: "Montserrat",
+sans-serif;
+$main-fonts2: "Roboto",
+sans-serif;
+$main-fonts3: "Kaushan Script",
+sans-serif;
+$gradient-start-color: rgba(239, 138, 138, 0.8);
+$gradient-end-color: rgba(242, 217, 136, 0.8);
+$color-white: #fff;
+$color-yellow: #fce38a;
+$color-pink: #f38181;
+$color-grey: #b3b3b3;
+$box-shadow: #95e1d3;
+$color-dark-grey: #626262;
+$footer-text: rgb(51, 51, 51);
+
+@mixin socials-components{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #f38181;
+    background-color: #fce38a;
+ }
+ @mixin icons-size{
+    width: 32px;
+    height: 32px;
+ }

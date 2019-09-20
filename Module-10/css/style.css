@@ -27,7 +27,6 @@ img {
 }
 
 .header {
-    /* height: 1008px; */
     padding-top: 20px;
     padding-bottom: 265px;
     background: url(../images/background.png) no-repeat;
@@ -68,7 +67,7 @@ img {
 }
 
 .navigation__list a {
-    font-family: "Montserrat";
+    font-family: Montserrat;
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;

@@ -1,0 +1,157 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    /* height: 1008px; */
+    padding-top: 20px;
+    padding-bottom: 265px;
+    background: url(../images/background.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media (-webkit-min-device-pixel-ratio: 1),
+(min-resolution: 192dpi) {
+    .header {
+        background: url(/src/images/background.png) no-repeat;
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 3.3333333333333335),
+(min-resolution: 320dpi) {
+    .header {
+        background: url(/src/images/back@2x.png) no-repeat;
+    }
+}
+}
+
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.navigation__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+}
+
+.navigation__list li {
+    margin-right: 60px;
+}
+
+.navigation__list a {
+    font-family: $main-fonts1;
+    color: $color-white;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navigation__list :last-child {
+    margin-right: 0;
+}
+
+.navigation__list{
+&:hover {
+    color: $color-yellow;
+}
+}
+.navigation__list a:after {
+    background-color: $color-yellow;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.navigation__list a{
+&:hover:after {
+    width: 100%;
+}
+}
+
+.bin svg {
+    width: 20px;
+    height: 20px;
+    fill: $color-white;
+    }
+
+.lupa svg {
+    width: 20px;
+    height: 20px;
+    fill: $color-white;
+}
+
+.title__service {
+    margin-bottom: 70px;
+}
+
+.main__title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main__title h3 {
+    text-align: center;
+    font-size: 72px;
+    font-family: $main-fonts3;
+    color: $color-white;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.main__title__button {
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main__title__button button {
+    font-weight: 700;
+    cursor: pointer;
+    padding: 18px 40px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    border: 4px solid $color-white;
+    color: $color-white;
+    background-color: Transparent;
+}
+
+.main__title h2 {
+    text-align: center;
+    font-size: 150px;
+    font-family: montserrat;
+    color: $color-white;
+    font-weight: 700;
+    width: 850px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
