@@ -56,7 +56,7 @@
 
 .icon__alarm {
     background-image: url(../images/alarm.png);
-   
+    @include icons-size;
 }
 
 .icon__line {
