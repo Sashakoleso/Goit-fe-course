@@ -297,12 +297,12 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding-bottom: 50px;
-}
+    }
 
-.services {
+.service {
     margin: 0;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .team:after {
@@ -356,6 +356,7 @@ img {
 .team__lists {
     margin: 0 auto;
     padding: 0;
+    padding-top: 50px;
     padding-bottom: 70px;
 }
 
@@ -426,7 +427,7 @@ img {
     -ms-flex-pack: justify;
     justify-content: space-between;
     -ms-flex-line-pack: center;
-    align-content: center;
+    align-items: center;
     padding-top: 10px;
 }
 
