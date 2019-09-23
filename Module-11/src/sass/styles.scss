@@ -1,10 +1,11 @@
 /*
    Import partials below
 */
-@import 'helpers/variables.scss';
-@import 'normalize';
-@import 'helpers/main-fonts.scss';
-@import 'components/header.scss';
-@import 'components/amazing-services.scss';
-@import 'components/team.scss';
-@import 'components/footer.scss';
+@import './normalize.scss';
+@import './helpers/fonts.scss';
+@import './helpers/variables.scss';
+@import './helpers/main-fonts.scss';
+@import './components/header.scss';
+@import './components/amazing-services.scss';
+@import './components/team.scss';
+@import './components/footer.scss';

@@ -2,7 +2,6 @@
   width: 1200px;
   margin: 0 auto;
 }
-
 .header {
   padding-top: 20px;
   padding-bottom: 265px;
@@ -25,7 +24,7 @@
 }
 .clearfix::after {
   display: block;
-  content: "";
+  content: '';
   clear: both;
 }
 
@@ -46,7 +45,7 @@
     display: -ms-flexbox;
     display: flex;
     list-style: none;
-    li {
+    li:not(:last-child) {
       margin-right: 60px;
     }
     a {
@@ -56,27 +55,24 @@
       text-decoration: none;
       text-transform: uppercase;
       position: relative;
-    }
-    &:last-child {
-      margin-right: 0;
-    }
-    &:hover {
-      color: $color-yellow;
-    }
-    &:after {
-      background-color: $color-yellow;
-      display: block;
-      content: "";
-      height: 3px;
-      width: 0%;
-      position: absolute;
-      -webkit-transition: width 0.3s ease-in-out;
-      transition: width 0.3s ease-in-out;
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-    }
-    &:hover:after {
-      width: 100%;
+      &:hover {
+        color: $color-yellow;
+      }
+      &:after {
+        background-color: $color-yellow;
+        display: block;
+        content: '';
+        height: 3px;
+        width: 0%;
+        position: absolute;
+        -webkit-transition: width 0.3s ease-in-out;
+        transition: width 0.3s ease-in-out;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+      }
+      &:hover:after {
+        width: 100%;
+      }
     }
     .bin {
       svg {
@@ -115,7 +111,7 @@
   h2 {
     text-align: center;
     font-size: 150px;
-    font-family: montserrat;
+    font-family: $main-fonts1;
     color: $color-white;
     font-weight: 700;
     width: 850px;
@@ -124,7 +120,7 @@
     margin-bottom: 75px;
   }
   &__button {
-    font-family: montserrat;
+    font-family: $main-fonts1;
     font-size: 14px;
     font-weight: 700;
     button {
