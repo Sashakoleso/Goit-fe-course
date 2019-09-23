@@ -532,7 +532,6 @@ body {
   font-size: 24px;
   font-family: "Kaushan Script", sans-serif;
   margin-bottom: 15px;
-  padding-top: 30px;
 }
 
 .title__team :nth-child(n+2) {
@@ -649,11 +648,11 @@ body {
 .services__items {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 50px;
 }
 
-.services {
-  margin: 0;
+.service {
+  margin: 0 auto;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
@@ -740,8 +739,7 @@ body {
 
 .team__lists {
   margin: 0 auto;
-  padding: 0;
-  padding-bottom: 70px;
+  padding: 30px 0 70px;
 }
 
 .ucupation {
@@ -917,7 +915,8 @@ body {
   margin: 0;
   padding: 0;
   justify-content: space-between;
-  align-content: center;
+  -ms-flex-line-pack: center;
+  align-items: center;
   padding-top: 10px;
 }
 

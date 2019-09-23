@@ -10,8 +10,7 @@
     font-size: 24px;
     font-family: $main-fonts3;
     margin-bottom: 15px;
-    padding-top: 30px;
-}
+    }
 
 .title__team :nth-child(n+2) {
     margin-bottom: 70px;
@@ -134,11 +133,11 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-     padding-bottom: 50px;
-}
+     }
 
-.services {
-    margin: 0;
+.service {
+    margin: 0 auto;
+    padding-top: 50px;
     padding-bottom: 30px;
     
 }
