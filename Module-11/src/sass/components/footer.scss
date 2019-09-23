@@ -1,92 +1,63 @@
-.footer__text p {
-    font-family: $main-fonts1;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.footer__text span {
-    color: $color-pink;
-}
-
-.button__load {
-    width: 150px;
-    height: 44px;
-    border: 0px solid $color-dark-grey;
-    margin: 0 auto;
-    padding: 0px;
-    background-color: $box-shadow;
-    border-radius: 0px;
-}
-
-.button__txt {
-    font-size: 14px;
-    font-family: $main-fonts1;
-    width: 150px;
-    height: 40px;
-    color: $color-white;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 16px;
-    text-align: center;
-}
-
-.footer__line {
-    border: none;
-    background-color: $color-grey;
-    color: $color-grey;
-    height: 1px;
-    margin: 0;
-    padding: 0;
-}
-
-.footer__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 62px;
-    margin: 0;
-    padding: 0;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-line-pack: center;
-    align-items: center;
-    padding-top: 10px;
-}
-
-.footer__text {
-    font-size: 14px;
-    font-family: $main-fonts1;
-    color: $footer-text;
-    line-height: 16px;
-    text-align: left;
-}
-
-.footer__text__color {
-    color: $color-pink;
-}
-
-.footer__form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.footer__form input {
-    margin: 0 auto;
-    padding: 0;
-    width: 230px;
-    height: 44px;
-}
-
-input[type="“text”"] {
-    font-size: 15px;
-    font-family: $main-fonts2;
-    color: $color-grey;
-    font-style: italic;
-    line-height: 1.6;
-    text-align: left;
-    padding: 0px 10px;
-}
+.footer__text{
+        font-size: 14px;
+        font-family: $main-fonts1;
+        color: $footer-text;
+        line-height: 16px;
+        text-align: left;
+        font-weight: 400;
+        span {
+        color: $color-pink;
+        }
+        .footer__wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            height: 62px;
+            margin: 0;
+            padding: 0;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -ms-flex-line-pack: center;
+            align-items: center;
+            padding-top: 10px;
+            .footer__form {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                margin: 0;
+                padding: 0;
+                input {
+                    width: 230px;
+                    font-size: 15px;
+                    font-family: $main-fonts2;
+                    color: $color-grey;
+                    font-style: italic;
+                    line-height: 1.6;
+                    text-align: left;
+                    padding: 0px 10px;
+                }
+            }
+            .button__load {
+                width: 150px;
+                height: 44px;
+                border: 0px solid $color-dark-grey;
+                margin: 0 auto;
+                padding: 0px;
+                background-color: $box-shadow;
+                border-radius: 0px;
+            }
+            
+            .button__txt {
+                font-size: 14px;
+                font-family: $main-fonts1;
+                width: 150px;
+                height: 40px;
+                color: $color-white;
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 16px;
+                text-align: center;
+            }
+        }
+} 
