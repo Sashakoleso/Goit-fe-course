@@ -441,7 +441,7 @@ body {
   color: #fce38a;
 }
 
-.navigation__list a:after {
+.navigation__list:after {
   background-color: #fce38a;
   display: block;
   content: "";
@@ -452,7 +452,7 @@ body {
   transform: translateX(0);
 }
 
-.navigation__list a:hover:after {
+.navigation__list:hover:after {
   width: 100%;
 }
 

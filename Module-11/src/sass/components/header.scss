@@ -24,8 +24,6 @@
     }
 }
 }
-
-
 .clearfix::after {
     display: block;
     content: "";
@@ -66,7 +64,7 @@
         &:hover {
             color: $color-yellow;
         }
-        a:after {
+        &:after {
             background-color: $color-yellow;
             display: block;
             content: "";
@@ -78,7 +76,7 @@
             -webkit-transform: translateX(0);
             transform: translateX(0);
         }
-        a:hover:after {
+        &:hover:after {
             width: 100%;
         }
         .bin{
